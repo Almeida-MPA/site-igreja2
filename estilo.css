@@ -1,0 +1,115 @@
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+  display: flex;
+    flex-direction: column;
+    height: auto;
+    /* margin: 10px; */
+    
+    background-image: linear-gradient(-45deg, #13293d 0%, #4682b4 100%);
+    justify-content: top;
+  
+}
+
+main {
+flex-grow:1;
+}
+
+
+
+.rodape4 {
+  /* margin-bottom: 10%;*/ 
+  margin-top: 27% ;
+  display: grid;
+  position: sticky;
+  height: auto;
+  width: 100%;
+  justify-items: center;
+  grid-template-rows: auto 1fr auto;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+  image-orientation: center;
+  /* padding-bottom: 60px; */
+  
+}
+
+.rodape5{
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  grid-template-rows: auto 1fr auto;
+  display: grid;
+}
+
+
+
+.nome{
+    font-size: 2rem;
+    color: #ffffff;
+    align-self: center;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    font-weight: 800;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+.endereço{
+    font-size: 12px;
+    color: #ffffff;
+    align-self: center;
+    
+    text-align: center;
+	text-decoration: none;
+}
+
+
+
+.logo {
+    /* margin-top: 10%; Distância da base */
+    width: 50px; /* Largura da imagem */
+    height: auto; /* Altura ajustável de acordo com a largura */
+    padding-bottom: 30px;
+}
+
+
+
+.container {
+    margin: 10px;
+    vertical-align: text-top;
+    text-align: justify;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+    display: grid;
+    grid-template-columns:
+repeat(auto-fit)
+minmax(300px, 1fr);
+gap: 20px;   
+  
+}
+
+
+
+
+.h1 {
+   
+    font-size: 10vw;
+    color: #ffffff;
+  font-weight: 800;
+}
+
+
+h2 {
+ background-color: hsla(0,0%,50%,0.3);
+ text-align: center;
+ align-self: center;
+}
